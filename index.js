@@ -112,6 +112,8 @@ function stop_timer() {
 
 function reset_timer() {
     stop_timer();
+    seconds = 00;
+    minutes = 00;
     appendMinutes.innerHTML = "00";
     appendSeconds.innerHTML = "00";
 }
